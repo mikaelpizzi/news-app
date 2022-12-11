@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import { useRouter } from "next/router";
+import LiveTimestamp from "../LiveTimestamp";
 
 type Props = {
     searchParams?: Article;
@@ -42,7 +43,11 @@ function ArticlePage({ searchParams }: Props) {
                 >
                     <h2 className="font-bold">By: {article.author || 'Unknown'}</h2>
                     <h2 className="font-bold pl-4">Source: {article.source}</h2>
-                    <p className="pl-4">{article.published_at}</p>
+                    <p className="pl-4">
+                        <LiveTimestamp
+                            time={article.published_at}
+                        />
+                    </p>
 
                 </div>
                     <p className="pt-12 lg:pt-4 mx-0 sm:mx-12 lg:mx-0">{article.description}</p>
