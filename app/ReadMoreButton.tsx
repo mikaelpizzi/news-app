@@ -18,7 +18,6 @@ function ReadMoreButton({article}: Props) {
         var finalQueryString = queryString.replace(/#/g, "");
 
         const url = `/article?${finalQueryString}`;
-        console.log(url);
         router.push(url);
     }
 

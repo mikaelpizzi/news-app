@@ -60,14 +60,13 @@ const fetchNews = async (
         }),
     });
 
-    console.log(`
-        "LOADING NEW DATA FROM API for category >>> ",
-        c: ${category},
-        k: ${keywords}
-    `);
+    // console.log(`
+    //     "LOADING NEW DATA FROM API for category >>> ",
+    //     c: ${category},
+    //     k: ${keywords}
+    // `);
 
     const newsResponse = await res.json();
-    // console.log('RESPONSE: ', newsResponse.data.myQuery.data);
 
     const newsData = newsResponse.data.myQuery;
 

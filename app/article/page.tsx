@@ -14,7 +14,6 @@ function ArticlePage({ searchParams }: Props) {
     }
 
     const article: Article = searchParams;
-    console.log('ARTICLE: ', searchParams);
 
   return (
     <article>
