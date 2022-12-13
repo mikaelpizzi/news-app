@@ -1,5 +1,4 @@
 import { notFound } from "next/navigation";
-import { useRouter } from "next/router";
 import LiveTimestamp from "../LiveTimestamp";
 
 type Props = {
