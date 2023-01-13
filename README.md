@@ -1,4 +1,4 @@
-# News app made with NextJS, NextAuth, Firebase v9, Recoil, FakerJS and TailwindCSS
+# Instagram clone made with NextJS, NextAuth, Firebase v9, Recoil, FakerJS and TailwindCSS
 
 ### [LIVE HERE](https://instagram2-mikaelpizzi.vercel.app/)
 
