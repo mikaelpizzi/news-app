@@ -1,15 +1,14 @@
-# Instagram clone made with NextJS, NextAuth, Firebase v9, Recoil, FakerJS and TailwindCSS
+# News app made with NextJS 13, Stepzen, GraphQL, TailwindCSS and Typescript
 
-### [LIVE HERE](https://instagram2-mikaelpizzi.vercel.app/)
+### [LIVE HERE](https://therealnews-mikaelpizzi.vercel.app/)
 
-![2023-01-12 23_21_03-](https://user-images.githubusercontent.com/26292499/212229742-22a99abb-cdfb-4600-a744-33144e34e59d.jpg)
+![news](https://user-images.githubusercontent.com/26292499/209034167-ba98716a-d6cc-486e-b116-909358817acc.jpg)
 
 ### Technologies used:
 
-* NextJS
+* NextJS 13
 * React
-* Custom NextAuth
-* Firebase v9
-* Recoil
-* FakerJS
+* Typescript
+* Stepzen
+* GraphQL
 * TailwindCSS
